@@ -28,7 +28,7 @@ A website that works like Shopee, but less complicated
         - contact.php
         - cart.php
         - _403.php
-    - **images : ***store product images*
+    - **images : ** *store product images*
     - **controllers**
         - Controller.php
         - HomeController.php
