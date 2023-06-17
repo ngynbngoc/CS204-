@@ -33,9 +33,11 @@ A website that works like Shopee, but less complicated
         - HomeController.php
         - ProductController.php
         - UserController.php
+        - CommentController.php
     - **models**
         - Product.php
         - User.php
+        - Comment.php
     - **core**
         - DB.php
         - Router.php
