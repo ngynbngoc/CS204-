@@ -19,6 +19,7 @@ A website that works like Shopee, but less complicated
     - **includes:**
         - header.php
         - footer.php
+        - style.css
     - **views**
         - _404.php
         - home.php
