@@ -1,0 +1,40 @@
+img.logo {
+    width: 180px;
+}
+
+img.footer-img {
+    width: 350px;
+}
+
+.bg-color {
+    background: #f1eee9!important;
+}
+
+.jumbotron {
+    background: white;
+}
+
+
+a.nav-link, h1, h2, h3, h4, h5 {
+    font-family: Libre Baskerville;
+    color: #553729;
+}
+
+p {
+    font-family: playfair display;
+    color: #433129ed
+}
+
+a.nav-link:hover {
+    color: white;
+    background: #2f5a56d6;
+    border-radius: 30px;
+    transition: all 1000ms;
+}
+
+
+.container.footer {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}

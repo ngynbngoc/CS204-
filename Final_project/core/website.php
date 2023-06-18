@@ -1,9 +1,9 @@
 <?php
 
-Route::get("", function(){
-    home = new HomeController;
-    home->backToHomepage();
-})
+Router::get("", function(){
+    $home = new HomeController;
+    $home->backToHomepage();
+});
 
 
 Router::get("product/get/{id}", function($id){
