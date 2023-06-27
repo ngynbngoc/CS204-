@@ -18,10 +18,6 @@ A website that works like Shopee, but less complicated
     - .htaccess
     
     - **views**
-     - **includes:**
-        - header.php
-        - footer.php
-        - style.css
         - _404.php
         - home.php
         - login.php
@@ -29,6 +25,10 @@ A website that works like Shopee, but less complicated
         - contact.php
         - cart.php
         - _403.php
+        - *includes:*
+            - header.php
+            - footer.php
+            - style.css
     - **images:** *store product images*
     - **controllers**
         - Controller.php
