@@ -1,0 +1,220 @@
+img.logo {
+    width: 180px;
+}
+
+img.footer-img {
+    width: 350px;
+}
+
+.bg-color {
+    background: #f1eee9!important;
+}
+
+.jumbotron {
+    background: white;
+}
+
+
+a.nav-link, label, h1, h2, h3, h4, h5, h6 {
+    font-family: Libre Baskerville;
+    color: #553729;
+}
+
+p  {
+    font-family: playfair display!important;
+    color: #433129ed!important;
+}
+
+
+.container {
+    max-width: 95%;
+}
+
+
+
+
+/* --------------------------------- navbar --------------------------------- */
+a.nav-link{
+    position: relative;
+}
+
+a.nav-link::after{
+    opacity: 0;
+    transition: all 0.2s ;
+    content: '';
+    height: 3px;
+    width: 100%;
+    background-color: #553729;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+a.nav-link:hover::after{
+    opacity: 1;
+}
+
+
+
+/* ----------------------------- homepage banner ---------------------------- */
+.container.banner {
+    background: url("https://cdn.shopify.com/s/files/1/0341/3498/2789/files/Dior_Addict_1440x617_2_ee5732cb-0e78-4774-82df-ba172c5287ae_2880x.jpg?v=1678416408");
+    height: 600px;
+    background-size: cover;
+}
+
+
+/*order button*/
+button.order_btn.btn {
+    background: black;
+    color: white;
+    border-radius: 29px;
+    width: 99px;
+    font-size: 13px;
+    height: 40px;
+    transition: all 500ms;
+}
+
+button.order_btn:hover {
+    scale: 1.1;
+}
+
+
+a.name:hover {
+    text-decoration: none;
+    
+}
+
+h5.card-title.product_name:hover {
+    font-weight: bolder;
+}
+
+
+/* -------------------------- detailed product page ------------------------- */
+input#quantity {
+    width: 90px;
+    margin-right: 10px;
+    height: 50px;
+    text-align: center;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+}
+
+button.Btn {
+    background: black;
+    border-radius: 40px;
+    height: 45px;
+    color: white;
+    transition: all 500ms;
+
+}
+
+button.Btn:hover{
+    scale:1.1;
+    color: white;
+}
+
+hr{
+    background: lightgray;
+}
+
+.container.product{
+    max-width: 80%;
+}
+
+
+
+
+/* ------------------------------- login page ------------------------------- */
+.login-banner{
+    background: url("https://cdn.shopify.com/s/files/1/0341/3498/2789/files/PARISIAN_HOME_DEF_HD_ANA_F39_1_2880x.jpg?v=1679993372");
+    height: 600px;
+    background-size: cover;
+}
+
+
+
+
+/* -------------------------------- cart page ------------------------------- */
+
+/* logout mode*/
+.container.cart-banner {
+    margin-top: 80px;
+    height: 550px;
+    background: url(https://cloudfront-eu-central-1.images.arcpublishing.com/businessoffashion/RDXEROI7J5BTBJBNDPKJMHLTDI.jpg);
+    background-size: cover;
+    background-position-y: center;
+    display: flex;
+    align-items: center;
+    max-width: 95%;
+}
+
+.container.login_to_buy {
+    background: #ffffffb8;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/*login mode */
+.jumbotron.cart_banner {
+    margin: 40px;
+    text-align: center;
+}
+
+.container.cart_banner {
+    background: url(https://cdn.shopify.com/s/files/1/0341/3498/2789/files/BACKSTAGE_BAN_2880x.webp?v=1683182054);
+    height: 500px;
+    background-size: cover;
+    background-position-x: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container.cart_title {
+    background: #ffffffb3;
+    height: 200px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+/* --------------------------------- footer --------------------------------- */
+.container.footer {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/* --------------------------------- contact --------------------------------- */
+.container.contact-banner {
+    background: url(https://i0.wp.com/www.nylon.com.sg/wp-content/uploads/2022/11/dior-holiday-22-banner-scaled.jpg?fit=2560%2C1000&ssl=1);
+    height: 490px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 40px;
+}
+
+
+.container.call-us.mt-5 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.call-us .col-md-5 {
+    border: solid 0.6px #00000042;
+    padding: 25px;
+}
+.call-us .row{
+    justify-content: space-evenly;
+}
