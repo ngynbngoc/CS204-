@@ -16,11 +16,12 @@ A website that works like Shopee, but less complicated
 - **Final project**
     - index.php
     - .htaccess
-    - **includes:**
+    
+    - **views**
+     - **includes:**
         - header.php
         - footer.php
         - style.css
-    - **views**
         - _404.php
         - home.php
         - login.php
@@ -44,5 +45,3 @@ A website that works like Shopee, but less complicated
         - DB.php
         - Router.php
         - web.php
-    - **middleware (chưa biết có cần hay không)**
-        - CSRF.php
