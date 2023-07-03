@@ -4,7 +4,7 @@ A website that works like Shopee, but less complicated
 
 ## 💬 Overview
 
-- The content of the website will be generated dynamically using **JavaScript, PHP, CSS, HTML**
+- The content of the website will be generated dynamically using **JavaScript, PHP, CSS, HTML, Bootstrap**
 - Homepage will contain of a navbar, list of products with their images and prices
 - User can click into the product to see more specific details in a different page (brand, sellers, manufacturers, description, etc)
 - In the product page, user can add comments and reviews under the description box
